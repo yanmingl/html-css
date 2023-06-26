@@ -1,0 +1,29 @@
+p {
+  font-family: Roboto;
+}
+
+.video-cover {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.video-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.video-description {
+  margin: 0px;
+  line-height: 20px;
+  color: gray;
+}
+
+.video-author {
+  display: inline-block;
+  border-radius: px;
+}
+
+.video-text {
+  display: inline-block;
+}
