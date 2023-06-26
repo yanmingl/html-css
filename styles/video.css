@@ -11,6 +11,12 @@ p {
   font-weight: 600;
   margin-bottom: 10px;
   margin-top: 0;
+  width:320px;
+  display: -webkit-box; /* This is required for compatibility with certain browsers */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* Number of lines to display */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .video-description {
@@ -20,10 +26,22 @@ p {
 }
 
 .video-author {
-  display: inline-block;
-  border-radius: px;
+  height: 50px;
+  border-radius: 50px;
+  
 }
 
-.video-text {
-  display: inline-block;
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-single {
+  margin-bottom: 50px;
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 60px 1fr;
 }
