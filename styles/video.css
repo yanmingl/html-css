@@ -52,3 +52,21 @@ p {
   display: grid;
   grid-template-columns: 60px 1fr;
 }
+
+.video-time {
+  background-color: black;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  color: white;
+  font-size: 500;
+  padding: 4px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.video-cover-time {
+  position: relative;
+  margin-bottom: 5px;
+}
