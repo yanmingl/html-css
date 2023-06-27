@@ -12,7 +12,8 @@ p {
 
 .video-title {
   font-weight: 600;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
   width:320px;
   display: -webkit-box; /* This is required for compatibility with certain browsers */
   -webkit-box-orient: vertical;
@@ -22,17 +23,14 @@ p {
   cursor: pointer;
 }
 
-.video-author-text {
+.video-author-text, 
+.video-description {
   color: gray;
   cursor: pointer;
-  margin-bottom: 2px;
 }
 
-.video-description {
-  margin: 0px;
+.video-author-text {
   line-height: 20px;
-  color: gray;
-  cursor: pointer;
 }
 
 .video-author-img {
